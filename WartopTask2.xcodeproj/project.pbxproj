@@ -16,6 +16,8 @@
 		5E594501284CE56400F56029 /* WartopTask2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E594500284CE56400F56029 /* WartopTask2Tests.swift */; };
 		5E59450B284CE56500F56029 /* WartopTask2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59450A284CE56500F56029 /* WartopTask2UITests.swift */; };
 		5E59450D284CE56500F56029 /* WartopTask2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59450C284CE56500F56029 /* WartopTask2UITestsLaunchTests.swift */; };
+		5E59451A284D080E00F56029 /* WartopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E594519284D080E00F56029 /* WartopViewModel.swift */; };
+		5E59451C284D09AA00F56029 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59451B284D09AA00F56029 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5E594506284CE56500F56029 /* WartopTask2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WartopTask2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E59450A284CE56500F56029 /* WartopTask2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WartopTask2UITests.swift; sourceTree = "<group>"; };
 		5E59450C284CE56500F56029 /* WartopTask2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WartopTask2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E594519284D080E00F56029 /* WartopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WartopViewModel.swift; sourceTree = "<group>"; };
+		5E59451B284D09AA00F56029 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				5E5944F2284CE56400F56029 /* Assets.xcassets */,
 				5E5944F4284CE56400F56029 /* LaunchScreen.storyboard */,
 				5E5944F7284CE56400F56029 /* Info.plist */,
+				5E594519284D080E00F56029 /* WartopViewModel.swift */,
+				5E59451B284D09AA00F56029 /* Constant.swift */,
 			);
 			path = WartopTask2;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5944EE284CE56000F56029 /* ViewController.swift in Sources */,
+				5E59451A284D080E00F56029 /* WartopViewModel.swift in Sources */,
+				5E59451C284D09AA00F56029 /* Constant.swift in Sources */,
 				5E5944EA284CE56000F56029 /* AppDelegate.swift in Sources */,
 				5E5944EC284CE56000F56029 /* SceneDelegate.swift in Sources */,
 			);
